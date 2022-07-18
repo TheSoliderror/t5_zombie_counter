@@ -20,7 +20,6 @@ upon_player_connection()
 	{
 		level waittill("connecting", player);
 		player thread upon_player_spawned();
-		player thread health_hud();
 	}
 }
 
